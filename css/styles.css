@@ -1,0 +1,33 @@
+html {
+    text-align: center;
+    color: white;
+}
+header {
+    background-color: aqua;
+}
+nav {
+    background-color: blueviolet;
+}
+section {
+    background-color: chartreuse;
+}
+li {
+    background-color: orange;
+}
+footer {
+    background-color: darkgreen;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    /* width: 32%; */
+    /* 40px is 2 gutters at 20px */
+    width: calc((100% - 40px) / 3);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
